@@ -74,7 +74,7 @@
                       >
                     </div>
                   </div>
-                                    <div class="col-md-6 mb-3">
+                  <div class="col-md-6 mb-3">
                     <div class="form-outline">
                       <input
                         type="number"
@@ -86,11 +86,9 @@
                       >
                     </div>
                   </div>
-
-
                 </div>
                 <div class="row">
-                    <div class="col-md-5 mb-2">
+                  <div class="col-md-5 mb-2">
                     <h6 class="mb-2 pb-1 white">Género:</h6>
 
                     <div class="form-check form-check-inline">
@@ -133,7 +131,7 @@
                       >
                     </div>
                   </div>
-                <div class="col-md-7 mb-3">
+                  <div class="col-md-7 mb-3">
                     <h6 class="mb-2 pb-1 white">Oficios:</h6>
 
                     <div class="form-check form-check-inline">
@@ -175,7 +173,7 @@
                         >Mesero</label
                       >
                     </div>
-                                        <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                       <input
                         class="form-check-input"
                         type="checkbox"
@@ -187,7 +185,7 @@
                         >Resepcionista</label
                       >
                     </div>
-                                        <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline">
                       <input
                         class="form-check-input"
                         type="checkbox"
@@ -199,8 +197,9 @@
                         >Chofer</label
                       >
                     </div>
-                </div>
-                                                      <div class="col-md-12 mb-3">
+                  </div>
+                  <div class="row">
+                  <div class="col-md-12 mb-3">
                     <div class="form-outline">
                       <input
                         type="file"
@@ -212,7 +211,34 @@
                       >
                     </div>
                   </div>
-                  
+                  </div>
+                  <div class="row">
+                                      <div class="col-md-6 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="file"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Ingrese Foto Delantera de su INE</label
+                      >
+                    </div>
+                  </div>
+                                    <div class="col-md-6 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="file"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Ingrese Foto Trasera de su INE</label
+                      >
+                    </div>
+                  </div>
+
+                  </div>
                 </div>
                 <div class="row col-md-12 mb-3 white">
                   <h3>Dirección</h3>
@@ -279,7 +305,7 @@
                 <div class="row col-md-12 mb-3 white">
                   <h3>Datos de Inicio de Sesión</h3>
                 </div>
-                                <div class="row">
+                <div class="row">
                   <div class="col-md-8 mb-3">
                     <div class="form-outline">
                       <input
@@ -292,7 +318,7 @@
                       >
                     </div>
                   </div>
-                    <div class="col-md-4 mb-3">
+                  <div class="col-md-4 mb-3">
                     <div class="form-outline">
                       <input
                         type="password"
@@ -304,10 +330,9 @@
                       >
                     </div>
                   </div>
-
                 </div>
                 <div class="row">
-                    <div class="col-md-8 mb-3">
+                  <div class="col-md-8 mb-3">
                     <div class="form-outline">
                       <input
                         type="email"
@@ -319,7 +344,7 @@
                       >
                     </div>
                   </div>
-                                      <div class="col-md-4 mb-3">
+                  <div class="col-md-4 mb-3">
                     <div class="form-outline">
                       <input
                         type="password"
@@ -364,11 +389,11 @@ export default {
   background: -webkit-linear-gradient(to bottom right, #ffa100, #08a5ff);
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to bottom right, #9CE9FF, #1317EA);
+  background: linear-gradient(to bottom right, #9ce9ff, #1317ea);
 }
 
-.redondeo{
-    border-radius: 35px;
+.redondeo {
+  border-radius: 35px;
 }
 
 .back {
@@ -406,7 +431,6 @@ html {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .brand_logo_container {
   position: absolute;
@@ -434,7 +458,7 @@ html {
   padding-left: 0.75em;
   padding-right: 0.75em;
 }
-.login_btn { 
+.login_btn {
   background: #08a5ff !important;
   color: white !important;
 }

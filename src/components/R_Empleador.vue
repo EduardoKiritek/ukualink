@@ -1,161 +1,206 @@
 <template >
-<div>
-  <section class="gradient-custom">
+  <div>
+    <section class="gradient-custom">
+      <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+          <div class="user_card redondeo">
+            <div class="d-flex justify-content-center">
+              <div class="brand_logo_container">
+                <img
+                  src="@/assets/Logo_Circle.png"
+                  class="brand_logo"
+                  alt="Logo"
+                />
+              </div>
+            </div>
+            <div class="d-flex justify-content-center form_container">
+              <form>
+                <h3 class="font white">Registro de Empleador</h3>
 
-  <div class="container h-100  ">
-    <div class="d-flex justify-content-center h-100 ">
-      <div class="user_card redondeo">
-        <div class="d-flex justify-content-center">
-          <div class="brand_logo_container">
-            <img src="@/assets/Logo_Circle.png" class="brand_logo" alt="Logo" />
+                <br />
+                <div class="row">
+                  <div class="col-md-12 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id=""
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for=""
+                        >Nombre de la Empresa</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id="firstName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for=""
+                        >Nombre del Responsable / Persona de Contacto</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="number"
+                        id=""
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for=""
+                        >Teléfono</label
+                      >
+                    </div>
+                  </div>
+                                    <div class="col-md-6 mb-1">
+                    <select class="select form-control-lg">
+                      <option value="1">Giro de la Empresa</option>
+                      <option value="2">Industrial</option>
+                      <option value="3">Comercial</option>
+                      <option value="4">De Servicio</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row col-md-12 mb-1 white">
+                  <h3>Dirección</h3>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Calle</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Colonia</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-2 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName">CP</label>
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-1">
+                    <div class="form-outline">
+                      <input
+                        type="text"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Ciudad</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-1">
+                    <select class="select form-control-lg">
+                      <option value="1">Seleccione un estado</option>
+                      <option value="2">Michoacán</option>
+                      <option value="3">Jalisco</option>
+                      <option value="4">Querétaro</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row col-md-12 mb-3 white">
+                  <h3>Datos de Inicio de Sesión</h3>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="email"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Correo Electrónico</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="password"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Contraseña</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="email"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Confirmación de Correo Electrónico</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="password"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Confirmación de Contraseña</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-4 pt-2">
+                  <input
+                    class="btn login_btn"
+                    type="submit"
+                    value="Registrarse"
+                  />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center form_container ">
-          <form>
-              <h3 class="font white">Registro de Empleador</h3>
-                        
-   <br>
-                 <div class="row">
-                <div class="col-md-12 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="firstName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="firstName">Nombre(s)</label>
-                  </div>
-
-                </div>
-                 </div>
-                <div class="row">
-                <div class="col-md-6 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">Apellido Materno</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">Apellido Paterno</label>
-                  </div>
-
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb- d-flex align-items-center">
-
-                  <div class="form-outline datepicker w-100">
-                    <input
-                      type="date"
-                      class="form-control form-control-lg"
-                      id="birthdayDate"
-                    />
-                    <label for="birthdayDate" class="form-label white">Fecha de nacimiento</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-1">
-
-                  <h6 class="mb-2 pb-1 white">Género: </h6>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="femaleGender"
-                      value="option1"
-                      checked
-                    />
-                    <label class="form-check-label white" for="femaleGender">Mujer</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="maleGender"
-                      value="option2"
-                    />
-                    <label class="form-check-label white" for="maleGender">Hombre</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="otherGender"
-                      value="option3"
-                    />
-                    <label class="form-check-label white" for="otherGender">Otro</label>
-                  </div>
-                </div>
-              </div>
-              <div class='row col-md-12 mb-1 white'>
-                <h3>Dirección</h3>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">Calle</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">Colonia</label>
-                  </div>
-
-                </div>
-              </div>
-
-            <div class="row">
-                <div class="col-md-2 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">CP</label>
-                  </div>
-
-                </div>
-                <div class="col-md-5 mb-1">
-
-                  <div class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label white" for="lastName">Ciudad</label>
-                  </div>
-
-                </div>
-                <div class="col-md-5 mb-1">
-
-                  <select class="select form-control-lg ">
-                    <option value="1" >Seleccione un estado</option>
-                    <option value="2">Michoacán</option>
-                    <option value="3">Jalisco</option>
-                    <option value="4">Querétaro</option>
-                  </select>
-                  
-                  
-                </div>
-              </div>
-              <div class="mt-4 pt-2">
-                <input class="btn login_btn" type="submit" value="Registrarse" />
-              </div>
-          </form>
-        </div>
-        
       </div>
-    </div>
-  </div>
-  </section>
+    </section>
   </div>
 </template>
 
@@ -174,16 +219,16 @@ export default {
   background: -webkit-linear-gradient(to bottom right, #ffa100, #08a5ff);
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to bottom right, #FFD621, #FF5B0A)
-  }
-
-.back{
-    background: #08a5ff;
-    font-family: sans-serif;
+  background: linear-gradient(to bottom right, #ffd621, #ff5b0a);
 }
 
-.font{
-    font-family: sans-serif;
+.back {
+  background: #08a5ff;
+  font-family: sans-serif;
+}
+
+.font {
+  font-family: sans-serif;
 }
 
 html {
@@ -192,17 +237,17 @@ html {
   height: 100%;
   background: #60a3bc !important;
 }
-.white{
-    color: white;
+.white {
+  color: white;
 }
-.redondeo{
-    border-radius: 35px;
+.redondeo {
+  border-radius: 35px;
 }
 .user_card {
   border: 04px solid white;
   height: auto;
   width: 800px;
-  
+
   margin-top: 100px;
   margin-bottom: auto;
   background: #001e30;
@@ -216,7 +261,6 @@ html {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
 }
 .brand_logo_container {
   position: absolute;
@@ -241,11 +285,10 @@ html {
 .select-input.form-control[readonly]:not([disabled]) {
   font-size: 1rem;
   line-height: 2.15;
-  padding-left: .75em;
-  padding-right: .75em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
 }
 .login_btn {
-  
   background: #ffa100 !important;
   color: white !important;
 }
@@ -276,7 +319,7 @@ html {
   background-color: #ffa100 !important;
 }
 
-.margR{
-    margin-right: 10px;
+.margR {
+  margin-right: 10px;
 }
 </style>
