@@ -3,7 +3,7 @@
     <section class="gradient-custom">
       <div class="container h-100">
         <div class="d-flex justify-content-center h-100">
-          <div class="user_card">
+          <div class="user_card redondeo">
             <div class="d-flex justify-content-center">
               <div class="brand_logo_container">
                 <img
@@ -133,7 +133,7 @@
                       >
                     </div>
                   </div>
-                <div class="col-md-7 mb-2">
+                <div class="col-md-7 mb-3">
                     <h6 class="mb-2 pb-1 white">Oficios:</h6>
 
                     <div class="form-check form-check-inline">
@@ -200,6 +200,18 @@
                       >
                     </div>
                 </div>
+                                                      <div class="col-md-12 mb-3">
+                    <div class="form-outline">
+                      <input
+                        type="file"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Ingrese CV</label
+                      >
+                    </div>
+                  </div>
                   
                 </div>
                 <div class="row col-md-12 mb-3 white">
@@ -355,6 +367,10 @@ export default {
   background: linear-gradient(to bottom right, #9CE9FF, #1317EA);
 }
 
+.redondeo{
+    border-radius: 35px;
+}
+
 .back {
   background: #08a5ff;
   font-family: sans-serif;
@@ -390,7 +406,7 @@ html {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 5px;
+
 }
 .brand_logo_container {
   position: absolute;

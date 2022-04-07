@@ -4,7 +4,7 @@
 
   <div class="container h-100 ">
     <div class="d-flex justify-content-center h-100">
-      <div class="user_card">
+      <div class="user_card redondeo">
         <div class="d-flex justify-content-center">
           <div class="brand_logo_container">
             <img src="@/assets/Logo_Circle.png" class="brand_logo" alt="Logo" />
@@ -64,6 +64,10 @@ export default {
     background: #08a5ff;
 }
 
+.redondeo{
+    border-radius: 35px;
+}
+
 .font{
     font-family: sans-serif;
 }
@@ -94,7 +98,7 @@ html {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 5px;
+ 
 }
 .brand_logo_container {
   position: absolute;
