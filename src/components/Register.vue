@@ -12,8 +12,8 @@
         </div>
         <div class="d-flex justify-content-center form_container">
           <form>
-              <h3 class="font white">Registrarse</h3>
-              <h3 class="font white">Como...</h3>           
+              <h3 class="font white">¿Cómo desea registrarse?</h3>
+                      
    <br>
    <div class="row">
              <div class="d-flex justify-content-center mt-3 login_container col-md-6 mb-4 pb-2">
