@@ -212,39 +212,13 @@
                     </div>
                   </div>
                   </div>
-                  <div class="row">
-                                      <div class="col-md-6 mb-3">
-                    <div class="form-outline">
-                      <input
-                        type="file"
-                        id="lastName"
-                        class="form-control form-control-lg"
-                      />
-                      <label class="form-label white" for="lastName"
-                        >Ingrese Foto Delantera de su INE</label
-                      >
-                    </div>
-                  </div>
-                                    <div class="col-md-6 mb-3">
-                    <div class="form-outline">
-                      <input
-                        type="file"
-                        id="lastName"
-                        class="form-control form-control-lg"
-                      />
-                      <label class="form-label white" for="lastName"
-                        >Ingrese Foto Trasera de su INE</label
-                      >
-                    </div>
-                  </div>
 
-                  </div>
                 </div>
                 <div class="row col-md-12 mb-3 white">
                   <h3>Dirección</h3>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 mb-2">
+                  <div class="col-md-5 mb-2">
                     <div class="form-outline">
                       <input
                         type="text"
@@ -256,7 +230,19 @@
                       >
                     </div>
                   </div>
-                  <div class="col-md-6 mb-2">
+                   <div class="col-md-2 mb-2">
+                    <div class="form-outline">
+                      <input
+                        type="number"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Número</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-2">
                     <div class="form-outline">
                       <input
                         type="text"

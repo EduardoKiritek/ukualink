@@ -1,6 +1,6 @@
 <template >
 <div>
-  <section class="gradient-custom">
+  <section class="vh-100 gradient-custom">
 
   <div class="container ">
     <div class="d-flex justify-content-center ">
@@ -44,10 +44,15 @@
                 >
               </div>
             </div>
+            
+             
+          
             <div class="d-flex justify-content-center mt-3 login_container">
+              <router-link to="/crud">
               <button type="button" name="button" class="btn btn-primary btn-lg login_btn">
                 Iniciar Sesión
               </button>
+              </router-link>
             </div>
           </form>
         </div>

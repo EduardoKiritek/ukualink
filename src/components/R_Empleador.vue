@@ -19,7 +19,7 @@
 
                 <br />
                 <div class="row">
-                  <div class="col-md-12 mb-1">
+                  <div class="col-md-7 mb-1">
                     <div class="form-outline">
                       <input
                         type="text"
@@ -28,6 +28,21 @@
                       />
                       <label class="form-label white" for=""
                         >Nombre de la Empresa</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-md-5 mb-3">
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="inlineRadioOptions"
+                        id="recamaristaop"
+                        value="option1"
+                      />
+                      <label class="form-check-label white" for="femaleGender"
+                        >Soy empleador particular.</label
                       >
                     </div>
                   </div>
@@ -55,12 +70,10 @@
                         id=""
                         class="form-control form-control-lg"
                       />
-                      <label class="form-label white" for=""
-                        >Teléfono</label
-                      >
+                      <label class="form-label white" for="">Teléfono</label>
                     </div>
                   </div>
-                                    <div class="col-md-6 mb-1">
+                  <div class="col-md-6 mb-1">
                     <select class="select form-control-lg">
                       <option value="1">Giro de la Empresa</option>
                       <option value="2">Industrial</option>
@@ -74,7 +87,7 @@
                   <h3>Dirección</h3>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 mb-1">
+                  <div class="col-md-5 mb-1">
                     <div class="form-outline">
                       <input
                         type="text"
@@ -86,7 +99,19 @@
                       >
                     </div>
                   </div>
-                  <div class="col-md-6 mb-1">
+                                     <div class="col-md-2 mb-2">
+                    <div class="form-outline">
+                      <input
+                        type="number"
+                        id="lastName"
+                        class="form-control form-control-lg"
+                      />
+                      <label class="form-label white" for="lastName"
+                        >Número</label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-1">
                     <div class="form-outline">
                       <input
                         type="text"

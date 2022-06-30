@@ -7,7 +7,7 @@ import Register from '../components/Register.vue'
 import RegisterRouter from '../components/RegisterRouter.vue'
 import R_Empleador from '../components/R_Empleador.vue'
 import R_Empleado from '../components/R_Empleado.vue'
-
+import Crud from '../components/Crud.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -43,6 +43,11 @@ const routes = [
         name: 'r_empleado',
         component: R_Empleado
       },
+      {
+        path: '/crud',
+        name: 'crud',
+       component: Crud,
+      }
     ]
   },
 
