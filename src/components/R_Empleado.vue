@@ -40,11 +40,11 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="lastNameP"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
-                        >Apellido Materno</label
+                        >Apellido Paterno</label
                       >
                     </div>
                   </div>
@@ -52,11 +52,11 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="lastNameM"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
-                        >Apellido Paterno</label
+                        >Apellido Materno</label
                       >
                     </div>
                   </div>
@@ -78,7 +78,7 @@
                     <div class="form-outline">
                       <input
                         type="number"
-                        id="lastName"
+                        id="phone"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
@@ -178,7 +178,7 @@
                         class="form-check-input"
                         type="checkbox"
                         name="inlineRadioOptions"
-                        id="Resepcionistaop"
+                        id="resepcionistaop"
                         value="option3"
                       />
                       <label class="form-check-label white" for="otherGender"
@@ -198,21 +198,6 @@
                       >
                     </div>
                   </div>
-                  <div class="row">
-                  <div class="col-md-12 mb-3">
-                    <div class="form-outline">
-                      <input
-                        type="file"
-                        id="lastName"
-                        class="form-control form-control-lg"
-                      />
-                      <label class="form-label white" for="lastName"
-                        >Ingrese CV</label
-                      >
-                    </div>
-                  </div>
-                  </div>
-
                 </div>
                 <div class="row col-md-12 mb-3 white">
                   <h3>Dirección</h3>
@@ -222,7 +207,7 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="calle"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
@@ -234,7 +219,7 @@
                     <div class="form-outline">
                       <input
                         type="number"
-                        id="lastName"
+                        id="direc_num"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
@@ -246,7 +231,7 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="colonia"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"
@@ -261,7 +246,7 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="cod_pos"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName">CP</label>
@@ -271,7 +256,7 @@
                     <div class="form-outline">
                       <input
                         type="text"
-                        id="lastName"
+                        id="city"
                         class="form-control form-control-lg"
                       />
                       <label class="form-label white" for="lastName"

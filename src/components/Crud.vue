@@ -2,7 +2,7 @@
   <div class="vh-100 gradient-custom">
     <section >
 
-      <div class="container ">
+      <div class="container h-100 ">
         <div class="d-flex justify-content-center ">
           <div class="user_card redondeo">
             <div class="d-flex justify-content-center">
