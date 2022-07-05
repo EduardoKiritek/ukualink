@@ -18,6 +18,7 @@
                 <h3 class="font white">Registro de Empleador</h3>
 
                 <br />
+                <!--Empresa-->
                 <div class="row">
                   <div class="col-md-7 mb-1">
                     <div class="form-outline">
@@ -46,8 +47,8 @@
                       >
                     </div>
                   </div>
-                </div>
-
+                </div>  
+                <!--Responsable-->
                 <div class="row">
                   <div class="col-md-12 mb-1">
                     <div class="form-outline">
@@ -63,6 +64,7 @@
                   </div>
                 </div>
                 <div class="row">
+                  <!--telefono-->
                   <div class="col-md-6 mb-1">
                     <div class="form-outline">
                       <input
@@ -73,6 +75,7 @@
                       <label class="form-label white" for="">Teléfono</label>
                     </div>
                   </div>
+                  <!--Giro-->
                   <div class="col-md-6 mb-1">
                     <select class="select form-control-lg">
                       <option value="1">Giro de la Empresa</option>
@@ -86,6 +89,7 @@
                 <div class="row col-md-12 mb-1 white">
                   <h3>Dirección</h3>
                 </div>
+                <!--Datos de direccion-->
                 <div class="row">
                   <div class="col-md-5 mb-1">
                     <div class="form-outline">
@@ -136,6 +140,7 @@
                       <label class="form-label white" for="lastName">CP</label>
                     </div>
                   </div>
+                  <!--Ciudad--> 
                   <div class="col-md-5 mb-1">
                     <div class="form-outline">
                       <input
@@ -160,6 +165,7 @@
                 <div class="row col-md-12 mb-3 white">
                   <h3>Datos de Inicio de Sesión</h3>
                 </div>
+                <!--Login-->
                 <div class="row">
                   <div class="col-md-8 mb-3">
                     <div class="form-outline">
@@ -211,8 +217,8 @@
                       >
                     </div>
                   </div>
-                </div>
-
+                </div> 
+                <!--boton registro-->
                 <div class="mt-4 pt-2">
                   <input
                     class="btn login_btn"

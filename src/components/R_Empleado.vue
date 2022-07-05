@@ -21,6 +21,7 @@
                 <div class="row col-md-12 mb-3 white">
                   <h3>Datos Personales</h3>
                 </div>
+                <!--Nombres-->
                 <div class="row">
                   <div class="col-md-12 mb-2">
                     <div class="form-outline">
@@ -35,6 +36,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Apelido paterno-->
                 <div class="row">
                   <div class="col-md-6 mb-2">
                     <div class="form-outline">
@@ -61,7 +63,9 @@
                     </div>
                   </div>
                 </div>
+                <!--Apellido materno-->
                 <div class="row">
+                  <!--Fecha de nacimiento-->
                   <div class="col-md-6 mb-3 d-flex align-items-center">
                     <div class="form-outline datepicker w-100">
                       <input
@@ -74,6 +78,7 @@
                       >
                     </div>
                   </div>
+                  <!--Numero de telefono-->
                   <div class="col-md-6 mb-3">
                     <div class="form-outline">
                       <input
@@ -87,6 +92,7 @@
                     </div>
                   </div>
                 </div>
+                <!--Genero-->
                 <div class="row">
                   <div class="col-md-5 mb-2">
                     <h6 class="mb-2 pb-1 white">Género:</h6>
@@ -202,6 +208,7 @@
                 <div class="row col-md-12 mb-3 white">
                   <h3>Dirección</h3>
                 </div>
+                <!--Direccion-->
                 <div class="row">
                   <div class="col-md-5 mb-2">
                     <div class="form-outline">
@@ -252,6 +259,7 @@
                       <label class="form-label white" for="lastName">CP</label>
                     </div>
                   </div>
+                  <!--Ciudad-->
                   <div class="col-md-5 mb-3">
                     <div class="form-outline">
                       <input
@@ -264,6 +272,7 @@
                       >
                     </div>
                   </div>
+                  <!--Estado-->
                   <div class="col-md-5 mb-3">
                     <select class="select form-control-lg">
                       <option value="1">Seleccione un estado</option>
@@ -276,6 +285,7 @@
                 <div class="row col-md-12 mb-3 white">
                   <h3>Datos de Inicio de Sesión</h3>
                 </div>
+                <!--Login-->
                 <div class="row">
                   <div class="col-md-8 mb-3">
                     <div class="form-outline">
@@ -302,6 +312,7 @@
                     </div>
                   </div>
                 </div>
+                <!--Confirmacion de datos-->
                 <div class="row">
                   <div class="col-md-8 mb-3">
                     <div class="form-outline">
@@ -327,8 +338,8 @@
                       >
                     </div>
                   </div>
-                </div>
-
+                </div> 
+                <!--boton de registro-->
                 <div class="mt-4 pt-2">
                   <input
                     class="btn login_btn"
